@@ -42,7 +42,7 @@ After installing the Komodo repository, follow the steps:
 
 `cd Komodo/src`
 
-Now run the following command to start the ZILLA chain or TESTZILLA chain. 
+Now run the following command to start the BOSQ chain.  
 
 # Mainnet
 `./komodod -ac_name=BOSQ -ac_supply=21500000 -ac_reward=3000000 -ac_pubkey=RPB7YrGuTPCQoHE77sdt1vY9hRKpX8QBHx -addnode=54.39.23.248 -gen &`
