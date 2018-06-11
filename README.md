@@ -15,7 +15,7 @@ A utility token represents access to a future product or service. When you buy a
 
 coming soon
 
-## BOSQ Mainnet Tech Specification
+## BOSQ Mainnet Specifications
 
     Max Supply: 21 Million BOSQ
     Block Time: 1 minute
@@ -45,7 +45,7 @@ After installing the Komodo repository, follow the steps:
 # Now run the following command to start the ZILLA chain or TESTZILLA chain. 
 
 # Mainnet
-`./komodod -ac_name=BOSQ -ac_supply=11000000 -addnode=54.39.23.248 -gen &`
+`./komodod -ac_name=BOSQ -ac_supply=21500000 -ac_reward=3000000 -ac_pubkey=RPB7YrGuTPCQoHE77sdt1vY9hRKpX8QBHx -addnode=54.39.23.248 -gen &`
 
 Once the BOSQ chain is synched, you are able to use the wallet functionality
 
@@ -56,17 +56,17 @@ In order to perform a command you must navigate to
 
 and execute commands with the following prefix
 
-`./fiat-cli ZILLA`
+`./fiat-cli BOSQ`
 
 i.e. Command to get wallet info
 
-`./fiat-cli ZILLA getinfo`
+`./fiat-cli BOSQ getinfo`
 
 # Main Commands
 ## Wallet
 - getinfo 
 - backupwallet "destination"
-- dumpprivkey "zillaaddress"
+- dumpprivkey "bosqaddress"
 - dumpwallet "filename"
 - encryptwallet "passphrase"
 - getaccount "BOSQ_address"
