@@ -155,10 +155,6 @@ i.e. Command to get wallet info
 cd komodo/src
 ./komodo-cli -ac_name=BOSQ help
 ```
-## About Komodo
-
-Komodo is based on Zcash and has been  by their innovative consensus algorithm called dPoW which utilizes Bitcoin's hashrate to store Komodo blockchain information into the Bitcoin blockchain. Other new and native Komodo features are the privacy technology called JUMBLR or our assetchain capabilities (one click plug and play blockchain solutions). More details are available under https://komodoplatform.com/.
-
 
 Deprecation Policy
 ------------------
@@ -171,15 +167,6 @@ height and can be explicitly disabled.
 
 **Komodo is unfinished and highly experimental, use at your own risk.**
 
-
-Building
---------
-Build Zcash along with most dependencies from source by running
-`./zcutil/build.sh`. Currently only Linux is officially supported.
-
-**NOTE TO EXCHANGES:**
-https://bitcointalk.org/index.php?topic=1605144.msg17732151#msg17732151
-There is a small chance that an outbound transaction will give an error due to mismatched values in wallet calculations. There is a -exchange option that you can run komodod with, but make sure to have the entire transaction history under the same -exchange mode. Otherwise you will get wallet conflicts.
 
 **To change modes:**
 
